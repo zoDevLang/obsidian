@@ -1,0 +1,9 @@
+{
+  "id": "obi-1.21.1",
+  "inheritsFrom": "1.21.1",
+  "type": "release",
+  "mainClass": "net.obi.loader.launch.Main",
+  "libraries": [
+    { "name": "net.obi:obi-loader:0.1.0" }
+  ]
+}

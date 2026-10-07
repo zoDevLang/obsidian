@@ -1,0 +1,6 @@
+jar {
+    archiveBaseName = 'obi-loader'
+    manifest {
+        attributes 'Main-Class': 'net.obi.loader.launch.Main'
+    }
+}

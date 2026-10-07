@@ -1,0 +1,16 @@
+subprojects {
+    apply plugin: 'java-library'
+    group = 'net.obi'
+    version = '0.1.0'
+
+    repositories { mavenCentral() }
+
+    java {
+        toolchain { languageVersion = JavaLanguageVersion.of(21) }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = 21
+    }
+}

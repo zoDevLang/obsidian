@@ -1,0 +1,2 @@
+rootProject.name = 'obsidian'
+include 'obi-loader', 'obi-api', 'obi-patcher', 'obi-tooler', 'obsidian-client'
